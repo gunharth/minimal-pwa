@@ -7,8 +7,6 @@ self.addEventListener('install', function(event) {
         .then((cache) =>
           cache.addAll([
             "index.html",
-            "icon16.png",
-            "icon192.png",
             "icon196.png",
             "icon512.png",
             "manifest.webmanifest",
